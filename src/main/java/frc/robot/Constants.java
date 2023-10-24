@@ -21,16 +21,12 @@ public final class Constants {
     public static final int kDriverControllerPort = 0;
   }
 
-  public static class ShooterConstants {
-    public static final int kShooterMotorOne = 0;
-    public static final int kShooterMotorTwo = 0;
-  }
 
   public static class DriveTrainConstants {
-    public static final int kDriveTrainMotorFrontLeft = 0;
-    public static final int kDriveTrainMotorFrontRight = 0;
-    public static final int kDriveTrainMotorRearLeft = 0;
-    public static final int kDriveTrainMotorRearRight = 0;
+    public static final int kDriveTrainMotorFrontLeft = 1;
+    public static final int kDriveTrainMotorFrontRight = 3;
+    public static final int kDriveTrainMotorRearLeft = 2;
+    public static final int kDriveTrainMotorRearRight = 4;
 
     public static final double kP = 0;
     public static final double kI = 0;
