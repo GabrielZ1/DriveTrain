@@ -42,7 +42,6 @@ public class TankDrive extends CommandBase {
   public void execute() {
     m_subsystem.setLeftSpeed(m_leftSpeed.getAsDouble());
     m_subsystem.setRightSpeed(m_rightSpeed.getAsDouble());
-    
   }
 
   // Called once the command ends or is interrupted.

@@ -35,13 +35,13 @@ public class DriveTrain extends SubsystemBase {
     }
 
     public double getPosition() {
-        return motorFrontRight.getSelectedSensorPosition()* 2.75 * Math.PI / 39.37;
+        return motorFrontRight.getSelectedSensorPosition() * 2.75 * Math.PI / 39.37;
 
     }
 
     @Override
-public void periodic(){
-    System.out.println(motorFrontRight.getSelectedSensorPosition())
-}
+    public void periodic() {
+        System.out.println(motorFrontRight.getSelectedSensorPosition());
+    }
 
 }
